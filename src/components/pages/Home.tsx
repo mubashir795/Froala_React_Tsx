@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 const Home: React.FC<{}> = () =>{
     return(
       <>
@@ -31,19 +30,19 @@ const Home: React.FC<{}> = () =>{
                           <img src={require('../images/devs.png')} width="100" height="100" />
                           <p className='edit-title'>Developer friendly</p>
                           <p className='edit-des'>A WYSIWYG HTML editor created by developers, for developers. With a powerful API and documentation you can get started in minutes.</p>
-                          <p className='edit-link'><a href="/download">Quick start<i className='fa fa-angle-right icon-after'></i></a></p>
+                          <p className='edit-link'><Link to="/download">Quick start<i className='fa fa-angle-right icon-after'></i></Link></p>
                       </div>
                       <div className='img-2'>
                           <img src={require('../images/custom.png')} width="100" height="100" />
                           <p className='edit-title'>Easy to extend</p>
                           <p className='edit-des'>You can literally do anything with the Froala Editor. Well written, structured and documented code is very easy to understand and further extend.</p>
-                          <p className='edit-link'><a href="/extend">Custom build<i className='fa fa-angle-right icon-after'></i></a></p>
+                          <p className='edit-link'><Link to="/extend">Custom build<i className='fa fa-angle-right icon-after'></i></Link></p>
                       </div>
                       <div className='img-3'>
                           <img src={require('../images/plugins.png')} width="100" height="100" />
                           <p className='edit-title'>Out of the box plugins</p>
                           <p className='edit-des'>There's no need to reinvent the wheel. Our rich text editor comes with over 30 out of the box plugins to choose from and use in your project.</p>
-                          <p className='edit-link'><a href="/plugin">See plugins<i className='fa fa-angle-right icon-after'></i></a></p>
+                          <p className='edit-link'><Link to="/plugin">See plugins<i className='fa fa-angle-right icon-after'></i></Link></p>
                       </div>
                   </div>
               </div>
@@ -120,7 +119,7 @@ const Home: React.FC<{}> = () =>{
           <section className='container'>
               <p className='get-started'>Get Started Now</p>
               <p className='heading-des'>Unlimited users and developers no matter which plan you choose.</p>
-              <p className='text-small'>For any questions contact us or check out our <a  href="https://wysiwyg-editor.froala.help/hc/en-us">Help Center</a>.</p>
+              <p className='text-small'>For any questions contact us or check out our <Link  to="https://wysiwyg-editor.froala.help/hc/en-us">Help Center</Link>.</p>
               <div className='plan-btn-style'>
                   <Link to='/'>
                       <a className='plan-btn'>See Our Plans</a>
