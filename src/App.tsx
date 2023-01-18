@@ -8,6 +8,10 @@ import Download from './components/pages/Download';
 import Features from './components/pages/Features';
 import Docs from './components/pages/Docs';
 import Tour from './components/pages/Tour';
+import Inline from './components/pages/Inline';
+import Unbounce from './components/pages/Unbounce';
+import Closeio from './components/pages/Closeio';
+import Sencha from './components/pages/Sencha';
 
 function App() {
   return (
@@ -19,6 +23,10 @@ function App() {
       <Route path='/features' element={<Features/>} />
       <Route path='/docs' element={<Docs/>} />
       <Route path='/tour' element={<Tour/>} />
+      <Route path='/inline' element={<Inline/>} />
+      <Route path='/unbounce' element={<Unbounce/>} />
+      <Route path='/closeio' element={<Closeio/>} />
+      <Route path='/sencha' element={<Sencha/>} />
     </Routes>
     <Footer/>
     </>

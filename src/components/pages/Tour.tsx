@@ -26,7 +26,7 @@ const Tour: React.FC<{}> = () =>{
                             </div>
                             <p className='tour-des'>Here are some benefits you'll get from using Froala WYSIWYG Editor Trial:</p>
                             <ul className='download-quick-links'>
-                                <li>30 days of Technical Support</li>
+                                <li>301 days of Technical Support</li>
                                 <li>Supports 15+ Tech Stacks</li>
                                 <li>Easy to Extend</li>
                                 <li>Out of the Box Plugins</li>
