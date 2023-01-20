@@ -12,6 +12,12 @@ import Inline from './components/pages/Inline';
 import Unbounce from './components/pages/Unbounce';
 import Closeio from './components/pages/Closeio';
 import Sencha from './components/pages/Sencha';
+import Customers from './components/pages/Customers';
+import Plugin from './components/pages/Plugin';
+import Uploader from './components/pages/Uploader';
+import Sdkc from './components/pages/Sdkc';
+import Solution from './components/pages/Solution';
+import Extend from './components/pages/Extend';
 
 function App() {
   return (
@@ -27,6 +33,12 @@ function App() {
       <Route path='/unbounce' element={<Unbounce/>} />
       <Route path='/closeio' element={<Closeio/>} />
       <Route path='/sencha' element={<Sencha/>} />
+      <Route path='/customers' element={<Customers/>} />
+      <Route path='/plugin' element={<Plugin/>} />
+      <Route path='/uploader' element={<Uploader/>} />
+      <Route path='/sdkc' element={<Sdkc/>} />
+      <Route path='/solution' element={<Solution/>} />
+      <Route path='/extend' element={<Extend/>} />
     </Routes>
     <Footer/>
     </>

@@ -580,3 +580,250 @@ a.trial-btn {
 p.bg-text {
   width: 100%;
 }
+
+/* Customers */
+.box-text {
+  background: #f5f5f5;
+  padding: 30px;
+  max-width: 555px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.btn-onbounce {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.discover-block {
+  display: flex;
+}
+.discover-card {
+  background: #f5f5f5;
+  max-width: 555px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  line-height: 1.5;
+}
+p.bounce-des {
+  margin-top: 10px;
+  width: 80%;
+}
+h1.thousands-heading {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 42px;
+}
+.tweet-card {
+  max-width: 555px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .discover-block {
+    display: block;
+  }
+}
+/* Plugin */
+.plugin-card {
+  width: 25%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  border-radius: 5px;
+  color: #7a7a7a;
+  padding-top: 0.8em;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+p.plugin-text-light {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #333;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+h1.top-space {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.btm-row {
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .plugin-card {
+    width: 100%;
+}
+}
+/* uploader */
+section.uploader-section {
+  margin-top: 100px;
+  background: #fff;
+  padding-bottom: 100px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.uploader-box {
+  background: #f5f5f5;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.uploader-row {
+  display: flex;
+}
+.gif-img-box {
+  width: 50%;
+}
+.undraw-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.get-started-left {
+  width: 20%;
+}
+.get-started-middle {
+  width: 60%;
+}
+.get-started-right {
+  width: 20%;
+}
+.get-started-block {
+  display: flex;
+}
+ul.bullets-text {
+  list-style-type: decimal;
+}
+li.bullets-style {
+  margin-top: 30px;
+}
+.prettyprint {
+  background: #1e1e1e;
+  padding: 5px;
+  color: #fff;
+  font-family: Consolas, Consolas, 'Courier New', monospace;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  white-space: normal;
+}
+li.space {
+  margin-bottom: 50px;
+
+}
+/* sdkc */
+.img-box {
+  margin-top: 100px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24)!important;
+  padding: 50px;
+}
+.grid-images {
+  display: flex;
+}
+h2.title-left-border.text-small {
+  padding-left: 10px;
+  border-left: 3px solid #0098f7;
+  margin-bottom: 55px;
+  font-size: 1.566em;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.row-images {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+.left-space {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+/* solution */
+section.back-img{
+  background-image: url("./components/images/HeroBannerBG.png");
+  background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 100px 0px;
+}
+h1.back-img-title {
+  color: #FFFFFF;
+  font-family: "Nunito", Sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+}
+p.back-img-des {
+  color: #FFFFFF;
+  font-family: "Nunito", Sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.3em;
+  text-align: center;
+  padding-top: 50px;
+}
+.back-center-img {
+  text-align: center;
+  margin-top: 50px;
+}
+.solution-row {
+  display: flex;
+}
+.solution-box{
+  width: 33.33333333%;
+}
+.solution-box {
+  background: #F5F5F5;
+  border-radius: 7px 7px 7px 7px;
+  margin-right: 20px;
+  border-style: solid;
+  border-width: 5px 5px 5px 5px;
+  border-color: #FFFFFF;
+  box-shadow: 0px 0px 4px 0px #cccccc;
+  padding: 30px 12px 30px 12px;
+}
+p.solution-img-des {
+  text-align: right;
+  color: #0098F7;
+  font-size: 13px;
+  font-weight: 800;
+}
+.solution-row.top-row {
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+.bottom-row {
+  margin-bottom: 50px;
+}
+h2.solution-img-text {
+  color: #0098F7;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+section.background-clr {
+  background: #0198F7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+h2.background-img-text {
+  color: #FFFFFF;
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 100px;
+  text-align: center;
+}
+.solution-text {
+  width: 100%;
+}
+a.btn-clr {
+  background: #fff;
+  color: #0098F7;
+}
