@@ -18,6 +18,9 @@ import Uploader from './components/pages/Uploader';
 import Sdkc from './components/pages/Sdkc';
 import Solution from './components/pages/Solution';
 import Extend from './components/pages/Extend';
+import Contact from './components/pages/Contact';
+import Online from './components/pages/Online';
+import Toolbar from './components/pages/Toolbar';
 
 function App() {
   return (
@@ -39,6 +42,9 @@ function App() {
       <Route path='/sdkc' element={<Sdkc/>} />
       <Route path='/solution' element={<Solution/>} />
       <Route path='/extend' element={<Extend/>} />
+      <Route path='/contact' element={<Contact/>} />
+      <Route path='/online' element={<Online/>} />
+      <Route path='/toolbar' element={<Toolbar/>} />
     </Routes>
     <Footer/>
     </>
