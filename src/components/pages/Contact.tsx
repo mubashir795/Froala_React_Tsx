@@ -16,8 +16,8 @@ const Contact: React.FC<{}> = () =>{
                 <form>
                     <label>
                         <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Email" />
-                        <input type="email" className="form-control" id="exampleInputEmail1" placeholder="First Name*" />
-                        <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Last Name" />
+                        <input type="name" className="form-control" id="exampleInputEmail1" placeholder="First Name*" />
+                        <input type="name" className="form-control" id="exampleInputEmail1" placeholder="Last Name" />
                         <select id="field5" name="Country" className="form-control">
                             <option value="AF">Afghanistan</option>
                             <option value="AX">Åland Islands</option>

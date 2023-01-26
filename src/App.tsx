@@ -21,6 +21,8 @@ import Extend from './components/pages/Extend';
 import Contact from './components/pages/Contact';
 import Online from './components/pages/Online';
 import Toolbar from './components/pages/Toolbar';
+import Pricing from './components/pages/Pricing';
+import Artstation from './components/pages/Artstation';
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
       <Route path='/contact' element={<Contact/>} />
       <Route path='/online' element={<Online/>} />
       <Route path='/toolbar' element={<Toolbar/>} />
+      <Route path='/pricing' element={<Pricing/>} />
+      <Route path='/artstation' element={<Artstation/>} />
     </Routes>
     <Footer/>
     </>
